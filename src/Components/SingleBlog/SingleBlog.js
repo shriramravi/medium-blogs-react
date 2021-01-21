@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Axios from "axios";
 import c from "./SingleBlog.module.css";
 import Spinner from "../Spinner/Spinner";
+import MetaTags from 'react-meta-tags';
 
 export class SingleBlog extends Component {
  
@@ -53,6 +54,12 @@ export class SingleBlog extends Component {
     let post
     if(this.state.singlePost){
      post =( <>
+     <MetaTags>
+          <title>Page 1</title>
+          <meta id="meta-description" name="description" content={this.state.singlePost.title} />
+          <meta id="og-title" property="og:title" content={this.state.singlePost.title} />
+          <meta id="og-image" property="og:image" content={this.state.avatar} />
+      </MetaTags>
        <h2>{this.state.singlePost.title}</h2>
         <div className={c.avatar}>
           <a

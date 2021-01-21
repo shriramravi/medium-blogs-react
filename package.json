@@ -2,7 +2,7 @@
     "name": "react-blog-with-medium",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://mehulk05.github.io/Medium-Blog-On-React-App",
+    "homepage": "https://shriramravi.github.io/medium-blogs-react",
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.5.0",
@@ -12,9 +12,10 @@
         "moment": "^2.27.0",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
-        "react-scripts": "3.4.3",
+        "react-meta-tags": "^1.0.1",
         "react-router": "^5.2.0",
-        "react-router-dom": "^5.2.0"
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "3.4.3"
     },
     "scripts": {
         "start": "react-scripts start",

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Axios from "axios";
 import ShowBlog from "../ShowBlog/ShowBlog";
 import Spinner from "../Spinner/Spinner";
+import MetaTags from 'react-meta-tags';
 
 
 export class Blog extends Component {
